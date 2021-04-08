@@ -22,3 +22,6 @@ The API should return results in JSON. You should make the following endpoints a
 * `/states` -> should return an array of *all* the states with their accompanying data
 * `/states/:STATE_ABBREVIATION` (e.g. `states/FL`) -> should return the data just for that state
 
+## Bonus: A Front-End
+
+If you really want to impress us, build an front-end interactive map that displays the data from the API. One possible tool for this is [DataMaps](http://datamaps.github.io/), or you may find another useful libraries in [this article](https://www.hongkiat.com/blog/javascript-libraries-for-interactive-maps/). 
