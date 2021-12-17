@@ -25,3 +25,7 @@ The API should return results in JSON. You should make the following endpoints a
 ## Bonus: A Front-End
 
 If you really want to impress us, build an front-end interactive map that displays the data from the API. One possible tool for this is [DataMaps](http://datamaps.github.io/), or you may find another useful libraries in [this article](https://www.hongkiat.com/blog/javascript-libraries-for-interactive-maps/). 
+
+## Potential CSV Header Trap
+
+Without giving too much away, if you find yourself in a situation with a `CSV::Row` and for some reason cannot access one of it's keys, read [this](https://stackoverflow.com/questions/50334607/csvrow-and-hash-navigation-not-working-ruby-2-3-3-rails-5-1).
